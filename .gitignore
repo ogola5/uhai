@@ -1,0 +1,65 @@
+// ...existing code...
+.env
+tts_env/
+
+# Python runtime / caches
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Packaging / build artifacts
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+
+# Test / coverage
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# Type checker caches
+.mypy_cache/
+.pyre/
+.pytype/
+
+# Editors / IDEs
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs and local DBs
+*.log
+logs/
+*.sqlite3
+*.db
+
+# Docker / Compose local overrides
+docker-compose.override.yml
+
+# Node / frontend (if present)
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Secrets and keys
+*.pem
+*.key
+secrets.json
+.env.*  # optional per-environment env files
